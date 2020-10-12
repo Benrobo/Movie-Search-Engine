@@ -1,0 +1,13 @@
+`
+        <div class="card">
+          <div class="card-header"><h6 class="title">${i.title}</h6></div>
+          <div class="card-body">
+            <img src ='${i.posterurl}'>
+          </div>
+          <div class="card-footer">
+            <span>Year Produce:<span class="badge badge-success">${i.year}</span> <br> </span>
+            <span><b>Actors:</b>[${i.actors}]</br></span>
+            <span><b>Genres:</b>[${i.genres}] </span>
+          </div>
+        </div>
+      `
